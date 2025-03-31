@@ -1,7 +1,8 @@
 #include <Arduino.h>
 #include <U8g2lib.h>
 
-U8G2_SSD1322_NHD_256X64_1_3W_SW_SPI u8g2(U8G2_R0, 14, 13, 2, 4);
+//U8G2_SSD1322_NHD_256X64_1_3W_SW_SPI u8g2(U8G2_R0, 18, 23, 5, 22);
+U8G2_SSD1322_NHD_256X64_1_3W_HW_SPI u8g2(U8G2_R0, 5, 22);
 
 void setup() {
   Serial.begin(115200);
